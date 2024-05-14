@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+  background-color: #9A3B3B;
+}
+
+.form-signin{
+  width: 330px;
+  height: 50%;
+  background-color: #E2C799;
+  
+  
+}
+
+.esqueci-senha{
+  padding-left: 10px;
+}
+
+.bk{
+  background-color: #E2C799;
+}
+
+.bk2{
+  background-color: #9A3B3B;
+}
+
+.bk3{
+  background-color: #F2ECBE;
+}
+
+.btn:hover{
+  background-color: #E2C799;
+  color: #9A3B3B;
+}
+.submit{
+  padding: 1%;
+}
+
+.submit-text{
+  color: black;
+}
