@@ -52,66 +52,69 @@
 </header>
 <body class="d-flex justify-content-center align-items-center">
 
-  
-    <container class="bk container_table rounded-5 " >
-        <form >
-            <div>
-                <h1 class="h1 mb-3 fw-normal text-center"> Cadastrar-me </h1>
-            </div>
-            <div class="input-group mb-3 ms-4 w-50">
-                <span class="input-group-text" id="email">Email</span>
-                <input type="email" class="form-control " placeholder="johndoe@example.com" aria-label="email" aria-describedby="email" required>
-              
-              
-            </div>
-            <div class="input-group mb-3 ms-4 w-50">
-                <span class="input-group-text" id="name">Nome Completo</span>
-                <input type="text" class="form-control" placeholder="John Doe" aria-label="name" aria-describedby="name" required>
-            </div>
-            <div class="input-group mb-3 ms-4 w-50">
-                <span class="input-group-text" id="email">Telefone</span>
-                <input type="tel" class="form-control" placeholder="" aria-label="phone number" aria-describedby="number" required>
-            </div>
-            <div class="input-group mb-3 ms-4 w-50">
-                <span class="input-group-text" id="birth">Data de Nascimento</span>
-                <input type="date" class="form-control" placeholder="dd/mm/aaaa" aria-label="date" aria-describedby="date" required>
-            </div>
-            <div class="input-group mb-3 ms-4 w-50">
-                <span class="input-group-text" id="password">Senha</span>
-                <input type="password" class="form-control rounded-1" placeholder="" aria-label="password" aria-describedby="password" required>
-                <div class="col-auto">
-                    <span id="passwordHelpInline" class="form-text">
-                      Deve ter no minimo 8 caracteres e maiusculo, minusculo, numero e caractere especial.
-                    </span>
-                  </div>
-                
-            </div>
-            <div class="input-group mb-3 ms-4 w-75">
-                <span class="input-group-text" id="confirm_password">Confirmação de Senha</span>
-                <input type="confirm_password" class="form-control form-control rounded-1" placeholder="" aria-label="confirm_password" aria-describedby="confirm_password" required>
-                <div class="col-auto">
-                    <span id="passwordHelpInline" class="form-text ">
-                        Deve ter no minimo 8 caracteres e maiusculo, minusculo, numero e caractere especial.
-                    </span>
-                  </div>
-                
-            </div>
-            <div class="input-group mb-3 ms-4 w-75">
-                <label class="input-group-text" for="inputGroupFile01">Foto de perfil</label>
-                <input type="file" class="form-control" id="inputGroupFile01">
-                
-            </div>
+    <container class="bk container_table rounded-5" >
+        <div class="d-flex justify-content-between">
+            <div class= "ms-5 my-3 w-100">
+                <form class="" role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
             
-            <div class="d-flex flex-row-reverse mt-5 me-3">
-                <button type="reset" class="btn btn-primary w-25 rounded-2 py-2 bk3 border-0 submit-text">reset</button>
+                </form>
             </div>
-            
-            <div class="d-flex mt-5 justify-content-around">
-            
-                <button class="btn btn-primary w-25 rounded-2 py-2 bk3 border-0 submit-text" >voltar</button>
-                <button class="btn btn-primary w-25 rounded-2 py-2 bk3 border-0 submit-text" type="submit">cadastrar</button>
+            <div class="my-4 mx-4">
+                <a href="#"><img src="assets/search.svg" alt=""></a>
             </div>
-        </form>
+        </div>
+        <div class="mx-3 h-75">
+            <table class="table table-striped rounded-3 overflow-hidden">
+                <thead class=" table-warning">
+                  <tr>
+                    <th scope="col">Categoria</th>
+                    <th scope="col">Data</th>
+                    <th scope="col">Titulo</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Anime</td>
+                    <td>01/02/2023</td>
+                    <td>Teorias Jujutsu</td>
+                  </tr>
+                  <tr>
+                    
+                    <td>Serie</td>
+                    <td>01/02/2022</td>
+                    <td>Como Breaking Bad revolucionou a teoria de cores</td>
+                  </tr>
+                  <tr>
+                    
+                    <td> Livro</td>
+                    <td>01/12/2024</td>
+                    <td>12 Leis para vida, critica</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="mt-5 d-flex justify-content-center align-item-end">
+          <dev>
+            <nav aria-label="Page navigation example ">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link pagination-text" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link pagination-text" href="#">1</a></li>
+              <li class="page-item"><a class="page-link pagination-text" href="#">2</a></li>
+              <li class="page-item"><a class="page-link pagination-text" href="#">3</a></li>
+              <li class="page-item ">
+                <a class="page-link pagination-text" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+            </nav>
+          </dev>
+        </div>
     </container>
 
 </body>
