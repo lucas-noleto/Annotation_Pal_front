@@ -22,6 +22,24 @@ body {
 
 }
 
+.send_email_container{
+  width: 30%;
+  height: 20%;
+
+}
+
+.insert_password_container{
+  width: 30%;
+  height: 40%;
+
+}
+
+.container_table{
+  width: 80%;
+  height: 80%;
+}
+
+
 .bk{
   background-color: #E2C799;
 }
